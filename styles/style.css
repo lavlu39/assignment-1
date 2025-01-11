@@ -265,18 +265,49 @@ background-color: brown;
 .news-header-dis{
 
 }
+/* News section */
 
-/* footer style */
-.footer-design{
+/* Donate Style Start */
+.donate{
+    margin-top: 50px;
+    margin: 80px 0px;
+
+}
+.option{
+    display: flex;
+    padding: 40px;
+    font-size: 40px;
+    justify-content: center;
+    justify-content: safe;
+    font-weight: bold;
+    gap: 24px;
+    background-color: #C6E4D6;
+}
+.donat-title{
+    text-align: center;
+}
+.donat-title-1{
+    font-size: 40px;
+}
+
+/* footer style Start */
+
+.fotter{
+   background-color: #FFFFFF;
+   padding: 50px 0px;
+   justify-content: center;
+}
+.footer-title{
     text-align: center;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: bold;
 }
-.footer hr{
-    margin-top: 32px;
-    size: 1220px;
+hr {
+    width: 1122px;
+    margin-bottom: 32px;
 }
-
-.banner-content img{
-    margin-right: ;
+.footer-icon{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
