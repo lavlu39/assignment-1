@@ -104,7 +104,7 @@ background-color: orangered;
     border-radius: 24px;
     width: 1260px;
     height: 540px;
-    margin: 80px 130px;
+    margin: 80px auto;
 }
 .card-title{
     font-family: "Fira Sans", serif;
@@ -122,6 +122,29 @@ background-color: orangered;
     opacity: 80%;
     font-family: "Fira Sans", serif;
     color: #0E0E0E;
+}
+#card-container{
+    display: flex;
+    width: fit-content;
+    contain: h;
+    gap: 24px;
+    align-items: center;
+    
+}
+#card-container .card{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+#card-container .card-1{
+    background-color: #C6E4D6;
+    border-radius: 16px;   
+}
+#card-container .card-2{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+}
+.btn{
+    background-color: ;
 }
 /* footer style */
 .footer-design{
