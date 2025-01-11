@@ -19,12 +19,13 @@ nav{
 display: flex;
 align-items: center;
 justify-content: space-between;
+margin-bottom: 20px;
 }
 .nav-title{
     color: #0E0E0E;
     font-weight: bold;
     font-size: 32px;
-    margin-left: 160px;
+    margin-left: 130px;
     
 }
 nav ul li{
@@ -33,14 +34,17 @@ nav ul li{
 }
 .btn-primary{
     font-family: "Fira Sans", serif;
-    margin-right: 160px;
+    margin-right: 130px;
     color: #006A50;
     border-color: #006A50 ;
     border-radius: 8px;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 600;
-
+}
+.btn-primary:hover{
+     background-color: orangered;
+    
 }
 ul li a{
     text-decoration: none;
@@ -51,22 +55,28 @@ ul li a{
 .banner{
     display: flex;
     background-color: #C6E4D6;
-    justify-content: space-between;
-    padding: 0 35px 0 200px;
     align-items: center;
-    gap: 90px;
+    gap: 64px;
     border-radius: 24px;
-    width: 1140px;
+    width: 1260px;
     height: 540px;
-    margin: 0 auto;
+    margin: auto;
     
 }
-
+.banner-content{
+   margin-left: 60px;
+   width: 660px;
+}
+.banner img{
+margin-right: 60px;
+}
 .sub-title{
     font-size: 24px;
+    color: #0E0E0E;
     opacity: 50%;
+    margin-bottom: 30px;
 }
-.btn-primary1{
+.btn-primary1 {
     font-family: "Fira Sans", serif;
     color: #FFFFFF;
     background-color: #006A50;
@@ -74,10 +84,44 @@ ul li a{
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 600;
-    stroke: none;
-}.banner-discription{
-    font-size: 50px;
+    border: none;
+    
+}
+.btn-primary1:hover{
+background-color: orangered;
+}
+
+.banner-discription{
+    font-size: 52px;
     font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+/* card vision style */
+#card-vison{
+    align-items: center;
+    border-radius: 24px;
+    width: 1260px;
+    height: 540px;
+    margin: 80px 130px;
+}
+.card-title{
+    font-family: "Fira Sans", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.card-discription{
+    color: #0E0E0E;
+    line-height: 24px;
+    opacity: 70%;
+}
+.card-title1{
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 80%;
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
 }
 /* footer style */
 .footer-design{
