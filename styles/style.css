@@ -99,15 +99,15 @@ background-color: orangered;
 }
 
 /* card vision style */
-#card-vison{
+.card-vison{
     align-items: center;
     border-radius: 24px;
     width: 1260px;
-    height: 540px;
+    height: 756px;
     margin: 80px auto;
+    
 }
 .card-title{
-    font-family: "Fira Sans", serif;
     font-weight: bold;
     font-size: 40px;
 }
@@ -115,36 +115,95 @@ background-color: orangered;
     color: #0E0E0E;
     line-height: 24px;
     opacity: 70%;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
 .card-title1{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     opacity: 80%;
-    font-family: "Fira Sans", serif;
     color: #0E0E0E;
 }
-#card-container{
+.card-container{
     display: flex;
-    width: fit-content;
-    contain: h;
     gap: 24px;
-    align-items: center;
-    
 }
-#card-container .card{
+.card{
+    padding: 32px;
     background-color: rgba(84, 144, 245, 0.2);
     border-radius: 16px;
+
 }
-#card-container .card-1{
+.card-1{
+    padding: 32px;
     background-color: #C6E4D6;
     border-radius: 16px;   
 }
-#card-container .card-2{
+.card-2{
+    padding: 32px;
     background-color: #F7EBCF;
+    border-radius: 16px;   
+}
+.card-title-1{
+   font-size: 20px;
+   font-weight: bold;
+   color: rgba(14, 14, 14, 0.8);
+
+}
+.btn-1{
+    font-size: 16px;
+    background-color: #5490F5;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.btn-2{
+    font-size: 16px;
+    background-color: #09A15C;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.btn-3{
+    font-size: 16px;
+    background-color: #FFC239;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.btn-1:hover,.btn-2:hover, .btn-3:hover{
+background-color: brown;
+}
+.card-section-2{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position-x: 24px;
+    background-position-y: 25px;
+    margin-top: 32px;
+    background-color: #FFFFFF;
+    padding: 48px 24px;
     border-radius: 16px;
 }
-.btn{
-    background-color: ;
+.card-section-sub{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 0;
+}
+.header-title-2{
+    font-weight: 600;
+    font-size: 20px;
+    opacity: 80%;
+    margin-bottom: 0px;
 }
 /* footer style */
 .footer-design{
