@@ -78,7 +78,7 @@ margin-right: 60px;
     color: #0E0E0E;
     opacity: 50%;
     margin-bottom: 30px;
-    margin
+    
 }
 .btn-primary1 {
     font-family: "Fira Sans", serif;
@@ -353,9 +353,6 @@ input[type=text]{
 .newsletter h2{
     font-size: 30px;
 }
-.sub-title{
-    text-align: center;
-}
 .subscribe .newsletter{
     text-align: center;
     padding-top: 80px;
@@ -376,6 +373,9 @@ input[type=text]{
     font-weight: 600;
     color: #FFFFFF;
     border: none;
+}
+.sub-btn:hover{
+    background-color: orangered;
 }
 input[type=email]{
     width: 600px;
