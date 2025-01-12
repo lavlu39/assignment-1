@@ -31,8 +31,6 @@ margin-bottom: 20px;
     color: #0E0E0E;
     font-weight: bold;
     font-size: 32px;
-   
-    
 }
 nav ul li{
     list-style: none;
@@ -80,6 +78,7 @@ margin-right: 60px;
     color: #0E0E0E;
     opacity: 50%;
     margin-bottom: 30px;
+    margin
 }
 .btn-primary1 {
     font-family: "Fira Sans", serif;
@@ -180,7 +179,7 @@ background-color: orangered;
     font-weight: 600;
 }
 .btn-1:hover,.btn-2:hover, .btn-3:hover{
-background-color: brown;
+background-color: orangered;
 }
 .card-section-2{
     background-image: url('../assets/quote-bg.png');
@@ -269,25 +268,141 @@ background-color: brown;
 
 /* Donate Style Start */
 .donate{
-    margin-top: 50px;
     margin: 80px 0px;
-
-}
-.option{
-    display: flex;
-    padding: 40px;
-    font-size: 40px;
-    justify-content: center;
-    justify-content: safe;
-    font-weight: bold;
-    gap: 24px;
-    background-color: #C6E4D6;
 }
 .donat-title{
     text-align: center;
+    margin-bottom: 0px;
 }
 .donat-title-1{
     font-size: 40px;
+}
+.donate-1{
+    background-color: #FFFFFF;
+    color: #0E0E0E;
+    opacity: 80%;
+    border-radius: 16px;
+    margin-bottom: 0px;
+}
+.donate-200{
+    background-color: #C6E4D6;
+    color: #0E0E0E;
+    opacity: 80%;
+    border-radius: 16px;
+    margin-bottom: 0px;
+}
+.taka{
+    padding: 40px;
+    font-size: 40px;
+}
+.donate-discription{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin: 0px 88px;
+}
+.donate-option{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 0;
+}
+input[type=text]{
+    width: 1025px;
+    height: 64px;
+    justify-content: center;
+    margin-left: 80px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.amount-taka::placeholder{
+     text-align: center;
+     font-size: 20px;
+}
+.donate-now{
+    text-align: center;
+    padding-top: 32px;
+}
+.now{
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+}
+.now:hover {
+    background-color: orangered;
+}
+.donate-1:hover, .donate-200:hover{
+    background-color: orangered;
+}
+/* /* Donate Style End */
+
+/* Subscribe Newsletter Style Start */
+.subscribe{
+    background-color: #C6E4D6;
+    height: 395px;
+    margin-bottom: 80px;
+    border-radius: 24px;
+}
+.newsletter h2{
+    font-size: 30px;
+}
+.sub-title{
+    text-align: center;
+}
+.subscribe .newsletter{
+    text-align: center;
+    padding-top: 80px;
+}
+.input-subscribe button{
+    position: absolute;
+    cursor: pointer;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: none;
+    height: 56px;
+    border-radius: ;
+
+    
+}
+.sub-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+}
+input[type=email]{
+    width: 600px;
+    height: 54px;
+    border: none;
+}
+.input-subscribe{
+    width: 750;
+    margin: 0 200px;
+    flex-direction: column;
+} 
+::placeholder{
+    padding-left: 40px;
+    height: 19px;
+}
+.news-dis{
+    margin-left: 270px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 622px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.news-dis-1{
+    text-align: center;
+    color: #0E0E0E;
+    opacity: 70%;
 }
 
 /* footer style Start */
